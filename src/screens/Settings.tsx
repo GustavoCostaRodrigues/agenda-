@@ -207,12 +207,12 @@ const Settings: React.FC = () => {
                                     readOnly
                                     className="ios-input"
                                     style={{ background: 'white', fontSize: '13px' }}
-                                    value={`https://agendaplus.com.br/agendar/${slug}`}
+                                    value={`https://salaoagenda.vercel.app/agendar/${slug}`}
                                 />
                                 <button
                                     type="button"
                                     onClick={() => {
-                                        navigator.clipboard.writeText(`https://agendaplus.com.br/agendar/${slug}`);
+                                        navigator.clipboard.writeText(`https://salaoagenda.vercel.app/agendar/${slug}`);
                                         alert('Link copiado! Cole na bio do Instagram ou no WhatsApp. 🚀');
                                     }}
                                     className="btn-primary"
@@ -238,7 +238,7 @@ const Settings: React.FC = () => {
                     <div className="form-group">
                         <label className="label-ios">Endereço de Agendamento (Link Único)</label>
                         <div style={{ display: 'flex', gap: '8px', alignItems: 'center' }}>
-                            <span style={{ fontSize: '13px', color: '#8E8E93', fontWeight: '600' }}>agendaplus.com.br/agendar/</span>
+                            <span style={{ fontSize: '13px', color: '#8E8E93', fontWeight: '600' }}>salaoagenda.vercel.app/agendar/</span>
                             <input
                                 type="text"
                                 className="ios-input"
