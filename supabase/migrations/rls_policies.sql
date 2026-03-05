@@ -1,5 +1,5 @@
 -- ==========================================================
--- SALONHUB - DATABASE SECURITY (RLS POLICIES) - FIXED v3
+-- AGENDA+ - DATABASE SECURITY (RLS POLICIES) - FIXED v3
 -- ==========================================================
 
 -- 1. ENABLE RLS

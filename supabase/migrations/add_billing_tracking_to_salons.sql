@@ -1,5 +1,5 @@
 -- ==========================================================
--- SALONHUB - BILLING TRACKING COLUMNS
+-- AGENDA+ - BILLING TRACKING COLUMNS
 -- ==========================================================
 
 -- 1. Add billing and plan change tracking

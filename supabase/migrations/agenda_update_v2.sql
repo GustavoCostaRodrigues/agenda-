@@ -1,5 +1,5 @@
 -- ==========================================================
--- SALONHUB - AGENDA UPDATES (Price & Status)
+-- AGENDA+ - AGENDA UPDATES (Price & Status)
 -- ==========================================================
 
 -- 1. Add price column

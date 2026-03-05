@@ -1,5 +1,5 @@
 -- ==========================================================
--- SALONHUB - SALON PLAN HISTORY
+-- AGENDA+ - SALON PLAN HISTORY
 -- ==========================================================
 
 CREATE TABLE IF NOT EXISTS public.salon_plan_history (

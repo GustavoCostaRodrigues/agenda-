@@ -1,5 +1,5 @@
 -- ==========================================================
--- SALONHUB - USER AVATAR & STORAGE BUCKET (FINAL FIX)
+-- AGENDA+ - USER AVATAR & STORAGE BUCKET (FINAL FIX)
 -- ==========================================================
 
 -- 1. Add avatar_url to users table

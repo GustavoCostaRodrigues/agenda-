@@ -1,5 +1,5 @@
 -- ==========================================================
--- SALONHUB - AGENDA / APPOINTMENTS TABLE (FIXED v2)
+-- AGENDA+ - AGENDA / APPOINTMENTS TABLE (FIXED v2)
 -- ==========================================================
 
 -- Redefine table to ensure all columns exist

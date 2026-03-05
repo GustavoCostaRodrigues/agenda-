@@ -1,5 +1,5 @@
 -- ==========================================================
--- SALONHUB - USER SYNC (TRIGGER & MANUAL FIX)
+-- AGENDA+ - USER SYNC (TRIGGER & MANUAL FIX)
 -- ==========================================================
 
 -- 1. FUNCTION to handle new user signup automatically

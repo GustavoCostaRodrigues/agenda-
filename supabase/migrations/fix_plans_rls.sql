@@ -1,5 +1,5 @@
 -- ==========================================================
--- SALONHUB - FIX PLANS VISIBILITY (RLS)
+-- AGENDA+ - FIX PLANS VISIBILITY (RLS)
 -- ==========================================================
 
 -- 1. Enable RLS on plans table

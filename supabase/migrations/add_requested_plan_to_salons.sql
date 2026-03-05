@@ -1,5 +1,5 @@
 -- ==========================================================
--- SALONHUB - ADD REQUESTED PLAN TO SALONS
+-- AGENDA+ - ADD REQUESTED PLAN TO SALONS
 -- ==========================================================
 
 -- 1. Add requested_plan column as FK to plans

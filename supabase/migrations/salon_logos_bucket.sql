@@ -1,5 +1,5 @@
 -- ==========================================================
--- SALONHUB - LOGO STORAGE & COLUMN FIX (REFINED RLS)
+-- AGENDA+ - LOGO STORAGE & COLUMN FIX (REFINED RLS)
 -- ==========================================================
 
 -- 1. Ensure logo_url exists and clean up old naming

@@ -1,5 +1,5 @@
 -- ==========================================================
--- SALONHUB - USER ACTIVATION STATUS
+-- AGENDA+ - USER ACTIVATION STATUS
 -- ==========================================================
 
 -- 1. Add is_active column to users table

@@ -1,5 +1,5 @@
 -- ==========================================================
--- SALONHUB - SALON SETTINGS (WHITE LABEL & PERMISSIONS)
+-- AGENDA+ - SALON SETTINGS (WHITE LABEL & PERMISSIONS)
 -- ==========================================================
 
 -- 1. Add new columns to public.salons
