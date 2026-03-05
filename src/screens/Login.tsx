@@ -55,7 +55,7 @@ const Login: React.FC<LoginProps> = ({ onRegister }) => {
                 }}>
                     S
                 </div>
-                <h1 style={{ fontSize: '36px' }}>SalonHub</h1>
+                <h1 style={{ fontSize: '36px' }}>Agenda+</h1>
                 <p>Gestão de beleza em um toque.</p>
             </div>
 

@@ -37,7 +37,7 @@ const Register: React.FC<RegisterProps> = ({ onBack }) => {
         }}>
             <div style={{ textAlign: 'center' }}>
                 <h1 style={{ fontSize: '32px' }}>Começar Agora</h1>
-                <p>Crie sua conta no ecossistema SalonHub.</p>
+                <p>Crie sua conta no ecossistema Agenda+.</p>
             </div>
 
             <div className="glass" style={{ padding: '32px', display: 'flex', flexDirection: 'column', gap: '24px' }}>

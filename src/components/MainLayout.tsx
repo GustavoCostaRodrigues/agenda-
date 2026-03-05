@@ -40,7 +40,7 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
     const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
     const [salonPermissions, setSalonPermissions] = useState<string[]>(['Agenda', 'Perfil']);
     const [loadingPermissions, setLoadingPermissions] = useState(true);
-    const [salonInfo, setSalonInfo] = useState<{ name: string, logo: string | null }>({ name: 'SalonHub', logo: null });
+    const [salonInfo, setSalonInfo] = useState<{ name: string, logo: string | null }>({ name: 'Agenda+', logo: null });
     const [showUserMenu, setShowUserMenu] = useState(false);
     const [hasLowStock, setHasLowStock] = useState(false);
 
@@ -87,7 +87,7 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
             if (!error && data) {
                 if (data.manager_permissions) setSalonPermissions(data.manager_permissions);
                 setSalonInfo({
-                    name: data.app_name || 'SalonHub',
+                    name: data.app_name || 'Agenda+',
                     logo: data.logo_url || null
                 });
 

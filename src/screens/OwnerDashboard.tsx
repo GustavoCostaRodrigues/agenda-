@@ -164,7 +164,7 @@ const OwnerDashboard: React.FC<Props> = ({ section }) => {
                     </div>
                     <p style={{ margin: 0, fontSize: '14px', lineHeight: '1.6', color: '#3A3A3C', fontWeight: '500' }}>
                         Notamos que seu salão está com mais integrantes ativos do que o permitido no seu plano atual.
-                        Para que todo o time continue aproveitando o SalonHub sem interrupções, sugerimos um rápido upgrade para o próximo nível.
+                        Para que todo o time continue aproveitando o Agenda+ sem interrupções, sugerimos um rápido upgrade para o próximo nível.
                         <br />
                         <span style={{ fontSize: '13px', opacity: 0.8 }}>É simples e leva apenas alguns segundos!</span>
                     </p>

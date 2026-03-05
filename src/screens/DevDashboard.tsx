@@ -139,7 +139,7 @@ const DevDashboard: React.FC = () => {
 
         doc.setFontSize(22);
         doc.setTextColor(0, 122, 255);
-        doc.text('Relatório Financeiro Global - SalonHub', 14, 22);
+        doc.text('Relatório Financeiro Global - Agenda+', 14, 22);
 
         doc.setFontSize(12);
         doc.setTextColor(142, 142, 147);
@@ -233,7 +233,7 @@ const DevDashboard: React.FC = () => {
             yPos = doc.lastAutoTable.finalY + 20;
         });
 
-        doc.save(`Relatorio_Financeiro_SalonHub_${new Date().toISOString().split('T')[0]}.pdf`);
+        doc.save(`Relatorio_Financeiro_Agenda+_${new Date().toISOString().split('T')[0]}.pdf`);
     };
 
     // Chart Data Processing
@@ -354,7 +354,7 @@ const DevDashboard: React.FC = () => {
                     <div style={{ width: '44px', height: '44px', borderRadius: '12px', background: 'var(--ios-gradient-primary)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'white', fontSize: '24px', fontWeight: '900', boxShadow: '0 10px 20px rgba(157, 0, 255, 0.25)' }}>
                         S
                     </div>
-                    <h2 style={{ fontSize: '24px', fontWeight: '900', letterSpacing: '-1px' }}>SalonHub</h2>
+                    <h2 style={{ fontSize: '24px', fontWeight: '900', letterSpacing: '-1px' }}>Agenda+</h2>
                 </div>
 
                 <div className="glass" style={{ margin: '0 0 32px', padding: '20px', display: 'flex', flexDirection: 'column', gap: '16px', border: 'none', background: 'rgba(0,0,0,0.035)', borderRadius: '24px' }}>
@@ -438,7 +438,7 @@ const DevDashboard: React.FC = () => {
                     <div className="agenda-container" style={{ width: '100%', maxWidth: '1400px', margin: '0 auto' }}>
                         <header className="agenda-header" style={{ marginBottom: '40px', alignItems: 'center' }}>
                             <div>
-                                <h1 className="text-gradient" style={{ fontSize: '48px', marginBottom: '8px', letterSpacing: '-1.5px' }}>Ecosistema SalonHub</h1>
+                                <h1 className="text-gradient" style={{ fontSize: '48px', marginBottom: '8px', letterSpacing: '-1.5px' }}>Ecosistema Agenda+</h1>
                                 <p style={{ fontSize: '18px', fontWeight: '500', opacity: 0.7 }}>Painel de Gestão Centralizado • Developer Suite</p>
                             </div>
                             <button
@@ -671,7 +671,7 @@ const DevDashboard: React.FC = () => {
 
                                 {salons.length === 0 && (
                                     <div style={{ gridColumn: '1/-1', textAlign: 'center', padding: '120px', background: 'rgba(255,255,255,0.4)', borderRadius: '48px', border: '3px dashed rgba(0,0,0,0.05)' }}>
-                                        <p style={{ fontSize: '22px', fontWeight: '800', opacity: 0.3 }}>Nenhuma unidade cadastrada no ecossistema SalonHub.</p>
+                                        <p style={{ fontSize: '22px', fontWeight: '800', opacity: 0.3 }}>Nenhuma unidade cadastrada no ecossistema Agenda+.</p>
                                     </div>
                                 )}
                             </div>
@@ -682,7 +682,7 @@ const DevDashboard: React.FC = () => {
                         <header className="agenda-header" style={{ marginBottom: '48px', alignItems: 'center' }}>
                             <div>
                                 <h1 className="text-gradient" style={{ fontSize: '48px', marginBottom: '8px', letterSpacing: '-1.5px' }}>Financeiro Global</h1>
-                                <p style={{ fontSize: '18px', fontWeight: '500', opacity: 0.7 }}>Ecossistema SalonHub • Analytics de Receita e Escalonamento</p>
+                                <p style={{ fontSize: '18px', fontWeight: '500', opacity: 0.7 }}>Ecossistema Agenda+ • Analytics de Receita e Escalonamento</p>
                             </div>
                             <button
                                 onClick={generateFinanceReport}
